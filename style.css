@@ -1,0 +1,449 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+/*HEADER*/
+
+div.header {
+	background-color: #0C0032;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	margin: 0;
+}
+
+div.header img {
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	box-shadow: 0px 0px 30px black;
+	border-radius: 50%;
+}
+
+div.header div.judul {
+	padding: 40px 30px;
+	background-color: #3500D3;
+	width: auto;
+	height: auto;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	box-shadow: 0px 0px 30px black;
+}
+
+div.header div.judul h1 {
+	color: white;
+	font-family: "Lato", Montserrat, sans-serif;
+	text-shadow: 2px 2px 10px black;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+div.header div.socMed {
+	width: auto;
+	height: auto;
+	position: absolute;
+	bottom: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+	border-bottom: 2px solid white;
+}
+
+div.header div.socMed a {
+	text-decoration: none;
+	margin: 0 25px;
+	transition: .1s;
+}
+
+div.header div.socMed a:hover {
+	opacity: .8;
+	transform: scale(1.2);
+}
+
+div.header div.socMed a i {
+	color: white;
+	font-size: 20px;
+}
+
+/*BODY*/
+
+div.body {
+	width: 100%;
+}
+
+div.body div.box {
+	width: 100%;
+	padding: 70px 20px;
+	margin: 50px 0;
+	font-family: "Lato", Montserrat, sans-serif;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+div.body div.dark {
+	background-color: #0C0032;
+	color: white;
+}
+
+div.body div.box h1 {
+	font-size: 40px;
+	text-align: center;
+	color: #0C0032;
+	margin-bottom: 70px;
+}
+
+div.body div.dark h1 {
+	color: white;
+}
+
+div.body div.first p {
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0 auto 10px auto;
+	width: 60%;
+	text-shadow: 0px 0px 1px black;
+}
+
+div.body div.box div.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+div.body div.box div.container div.cont {
+	border-radius: 10px;
+	border-bottom: 5px solid white;
+	text-align: center;
+	width: 30%;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 10px black;
+	background-color: transparent;
+	overflow: hidden;
+}
+
+div.body div.box div.container div.cont h2 {
+	padding: 15px;
+	background-color: white;
+	color: #0C0032;
+	font-weight: bolder;
+}
+
+div.body div.box div.container div.cont p {
+	padding: 15px 0;
+	width: 95%;
+	margin-bottom: 70px;
+	color: white;
+}
+
+div.body div.box div.container div.cont button {
+	width: 95%;
+	position: absolute;
+	margin: 0 auto;
+	bottom: 10px;
+	right: 0;
+	left: 0;
+	font-size: 20px;
+	padding: 10px;
+	background-color: white;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+	color: #0C0032;
+	cursor: pointer;
+	transition: .1s;
+	font-weight: bolder;
+}
+
+div.body div.box div.container div.cont button:active {
+	transform: scale(.9);
+}
+
+/*INFO MM*/
+
+#infoMm p {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+#infoMm div.keahlian {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 150px auto 100px auto;
+}
+
+#infoMm div.keahlian div {
+	text-align: center;
+	width: 20%;
+	padding: 15px 5px;
+	margin-bottom: 50px;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px gray;
+	cursor: pointer;
+	transition: .2s;
+}
+
+#infoMm div.keahlian div:hover {
+	transform: scale(1.2);
+	background-color: white;
+	z-index: 100;
+}
+
+#infoMm div.keahlian div:active {
+	transform: scale(3);
+	position: absolute;
+	background-color: white;
+	z-index: 10000;
+	box-shadow: 0px 0px 5000px black;
+	width: 15%;
+}
+
+#infoMm div.keahlian div i {
+	font-size: 40px;
+	margin-bottom: 15px;
+	color: #0C0032;
+}
+
+/*INFO RPL*/
+
+#infoRpl p {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 25px;
+}
+
+#infoRpl img {
+	width: 20%;
+	margin: auto;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0px 0px 10px black;
+}
+
+#infoRpl div.keahlian {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 150px auto 100px auto;
+}
+
+#infoRpl div.keahlian div {
+	text-align: center;
+	width: 20%;
+	padding: 15px 5px;
+	margin-bottom: 50px;
+	border: 2px solid white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px black;
+	cursor: pointer;
+	transition: .2s;
+}
+
+#infoRpl div.keahlian div:hover {
+	transform: scale(1.2);
+	background-color: #0C0032;
+	z-index: 100;
+}
+
+#infoRpl div.keahlian div:active {
+	transform: scale(3);
+	position: absolute;
+	background-color: #0C0032;
+	z-index: 10000;
+	box-shadow: 0px 0px 5000px black;
+	width: 15%;
+}
+
+#infoRpl div.keahlian div i {
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+
+#infoRpl div.projectRpl {
+	display: flex;
+	justify-content: space-evenly;
+	width: 90%;
+	height: auto;
+	margin: 70px auto;
+	flex-wrap: wrap;
+}
+
+#infoRpl div.projectRpl a {
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	width: 40%;
+	color: white;
+	transition: .2s;
+	margin-bottom: 30px;
+}
+
+#infoRpl div.projectRpl a:hover {
+	transform: scale(1.1);
+}
+
+#infoRpl div.projectRpl a img {
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+}
+
+#infoRpl div.projectRpl a p {
+	width: 100%;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+#infoRpl div.projectRpl a p:hover {
+	text-decoration: underline;
+}
+
+#infoRpl div.projectRpl button {
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+	color: #0C0032;
+	font-size: 20px;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	transition: .1s;
+	box-shadow: 0px px 20px black;
+}
+
+#infoRpl div.projectRpl button:hover {
+	text-decoration: underline;
+}
+
+#infoRpl div.projectRpl button:active {
+	transform: scale(.9);
+}
+
+/*INFO PFTV*/
+
+#infoPftv {
+	margin-bottom: 0;
+}
+
+#infoPftv p {
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 25px;
+	color: #0C0032;
+}
+
+#infoPftv div.projectPftv {
+	display: flex;
+	justify-content: space-evenly;
+	width: 90%;
+	height: auto;
+	margin: 70px auto ;
+	flex-wrap: wrap;
+}
+
+#infoPftv div.yt {
+	transform: scale(3.0);
+	margin-bottom: 100px;
+}
+
+#infoPftv div.projectPftv div {
+	text-align: center;
+	width: 450px;
+	color: #0C0032;
+	margin-bottom: 40px;
+	padding: 0 0 20px 0;
+	box-sizing: border-box;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px gray;
+	overflow: hidden;
+}
+
+#infoPftv div.projectPftv div iframe {
+	width: 100%;
+	height: 230px;
+	margin-bottom: 20px;
+}
+
+#infoPftv div.projectPftv div p {
+	width: 95%;
+	font-weight: bolder;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+#infoPftv div.projectPftv button {
+	width: 100%;
+	padding: 20px;
+	background-color: #0C0032;
+	color: white;
+	font-size: 20px;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+	font-weight: bolder;
+	cursor: pointer;
+	transition: .1s;
+	box-shadow: 0px px 20px black;
+}
+
+#infoPftv div.projectPftv button:hover {
+	text-decoration: underline;
+}
+
+#infoPftv div.projectPftv button:active {
+	transform: scale(.9);
+}
+
+/*COPYRIGHT*/
+
+div.copyRights {
+	width: 100%;
+	text-align: center;
+	height: auto;
+	background-color: #0C0032;
+}
+
+div.copyRights p {
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	padding: 20px 0;
+	color: white;
+	width: 100%;
+	margin: 0;
+}

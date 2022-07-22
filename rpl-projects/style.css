@@ -1,0 +1,106 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	background-color: #0C0032;
+	font-family: "Lato", montserrat, sans-serif;
+}
+
+div.back {
+	background-color: white;
+	color: #0C0032;
+	cursor: pointer;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10pc black;
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	padding: 8px;
+	transition: .1s;
+}
+
+div.back:active {
+	transform: scale(.9);
+}
+
+div.back i {
+	color: #0C0032;
+	font-size: 40px;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: center;
+	color: #0C0032;
+	margin-bottom: 100px;
+	margin-top: 80px;
+	color: white;
+}
+
+div.projectRpl {
+	display: flex;
+	justify-content: space-evenly;
+	width: 90%;
+	height: auto;
+	margin: 70px auto;
+	flex-wrap: wrap;
+}
+
+div.projectRpl a {
+	text-decoration: none;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	width: 40%;
+	color: white;
+	transition: .2s;
+	margin-bottom: 50px;
+}
+
+div.projectRpl a:hover {
+	transform: scale(1.1);
+}
+
+div.projectRpl a img {
+	border-radius: 10px;
+	position: relative;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+div.projectRpl a p {
+	width: 100%;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+div.projectRpl a p:hover {
+	text-decoration: underline;
+}
+
+table {
+	color: white;
+	width: 95%;
+	margin: 0 auto 30px auto;
+}
+
+table tr td {
+	padding: 10px;
+}
+
+table tr td input {
+	background-color: transparent;
+	color: white;
+	border: none;
+	outline: none;
+}
+
+table tr td input::-webkit-input-placeholder {
+	color: white;
+	font-style: italic;
+	text-decoration: none;
+}
