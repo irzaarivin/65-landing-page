@@ -7,7 +7,7 @@ function ambilDataSiswaRpl($url) {
 	return $data;
 }
 
-$siswaRpl = ambilDataSiswaRpl("http://0.0.0.0:8080/dataSiswaRpl.json");
+$siswaRpl = ambilDataSiswaRpl("http://localhost/dataSiswaRpl.json");
 
 ?>
 <!DOCTYPE html>
