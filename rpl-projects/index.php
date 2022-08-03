@@ -52,6 +52,10 @@ $siswaRpl = ambilDataSiswaRpl("http://localhost/dataSiswaRpl.json");
 	</div>
 
 	<h1 data-aos="fade-down">XI RPL Students :</h1>
+	<form action="./ajaxCariSiswa.php" method="get">
+	    <input data-aos="fade-down" type="search" name="keyword">
+	    <input data-aos="fade-up" type="submit" value="Cari" name="Submit">
+	</form>
 	<table cellspacing="0" cellpadding="7px" border="1px solid white">
 		<tr>
 			<td style="text-align: center; font-weight: bolder; background-color: black; padding: 20px;"><h3>No</h3></td>
