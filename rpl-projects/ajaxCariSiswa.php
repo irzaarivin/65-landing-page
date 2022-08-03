@@ -1,5 +1,5 @@
 <?php
-$data = file_get_contents("http://0.0.0.0:8080/dataSiswaRpl.json");
+$data = file_get_contents("http://localhost/dataSiswaRpl.json");
 $data = json_decode($data, true);
 $cek = $_GET["keyword"];
 $return = [];
